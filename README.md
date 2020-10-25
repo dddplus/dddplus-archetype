@@ -17,4 +17,7 @@ cd demo/
 git clone https://github.com/dddplus/dddplus-archetype.git
 cd dddplus-archetype/
 mvn install
+
+# generate a demo project based on DDDplus
+mvn archetype:generate -DgroupId=com.foo -DartifactId=demo -Dpackage=com.foo -Dversion=1.0.0-SNAPSHOT -DarchetypeGroupId=io.github.dddplus -DarchetypeArtifactId=dddplus-archetype -DarchetypeVersion=1.0.1 -DinteractiveMode=false -DarchetypeCatalog=internal
 ```
