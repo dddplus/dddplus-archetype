@@ -16,6 +16,17 @@
                 </fileSet>
             </fileSets>
         </module>
+        <module id="${rootArtifactId}-facade" dir="__rootArtifactId__-facade"
+                name="${rootArtifactId}-facade">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.java</include>
+                    </includes>
+                </fileSet>
+            </fileSets>
+        </module>
         <module id="${rootArtifactId}-domain" dir="__rootArtifactId__-domain" name="${rootArtifactId}-domain">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">

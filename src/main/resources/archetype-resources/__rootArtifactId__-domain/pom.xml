@@ -10,6 +10,7 @@
 
     <artifactId>${artifactId}</artifactId>
     <name>${artifactId}</name>
+    <description>领域层，沉淀业务资产</description>
 
     <dependencies>
         <dependency>

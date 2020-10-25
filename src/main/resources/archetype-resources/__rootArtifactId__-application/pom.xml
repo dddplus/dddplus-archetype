@@ -10,6 +10,7 @@
 
     <artifactId>${artifactId}</artifactId>
     <name>${artifactId}</name>
+    <description>经典DDD的 Application layer，同时也对应了 Clean Architecture 中的 Application Business Rule</description>
 
     <dependencies>
         <dependency>

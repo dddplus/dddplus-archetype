@@ -71,6 +71,11 @@
                 <artifactId>${rootArtifactId}-infrastructure</artifactId>
                 <version>${version}</version>
             </dependency>
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>${rootArtifactId}-facade</artifactId>
+                <version>${version}</version>
+            </dependency>
 
             <!-- third party sdk -->
             <dependency>

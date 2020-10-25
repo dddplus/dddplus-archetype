@@ -2,6 +2,6 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 /**
- * 前、中台统一的异常定义：business exception.
+ * RPC services implementation.
  */
-package ${package}.spec.exception;
+package ${package}.facade.rpc;

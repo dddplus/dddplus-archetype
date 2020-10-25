@@ -10,6 +10,7 @@
 
     <artifactId>${artifactId}</artifactId>
     <name>${artifactId}</name>
+    <description>DDDplus 特有的前中台协同包</description>
 
     <dependencies>
         <dependency>

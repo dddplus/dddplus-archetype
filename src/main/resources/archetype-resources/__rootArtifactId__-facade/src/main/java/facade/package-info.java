@@ -2,6 +2,6 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 /**
- * 前、中台统一的异常定义：business exception.
+ * 整个系统对外暴露服务的实现.
  */
-package ${package}.spec.exception;
+package ${package}.facade;

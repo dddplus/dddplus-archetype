@@ -10,17 +10,12 @@
 
     <artifactId>${artifactId}</artifactId>
     <name>${artifactId}</name>
-    <description>经典DDD的 Infrastructure layer，负责技术底座的实现</description>
+    <description>系统对外暴露服务的实现</description>
 
     <dependencies>
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-domain</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.mapstruct</groupId>
-            <artifactId>mapstruct</artifactId>
+            <artifactId>${rootArtifactId}-application</artifactId>
         </dependency>
     </dependencies>
 </project>
