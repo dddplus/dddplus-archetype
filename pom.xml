@@ -11,6 +11,7 @@
     <description>DDDplus Framework Maven Archetype</description>
 
     <build>
+        <defaultGoal>package</defaultGoal>
         <extensions>
             <extension>
                 <groupId>org.apache.maven.archetype</groupId>

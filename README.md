@@ -7,10 +7,14 @@
 ## Usage
 
 ``` bash
-mvn archetype:generate -DgroupId=com.foo -DartifactId=demo \
-                       -Dpackage=com.foo -Dversion=1.0.0-SNAPSHOT \
-                       -DarchetypeGroupId=io.github.dddplus \ 
-                       -DarchetypeArtifactId=dddplus-archetype \
-                       -DarchetypeVersion=1.0.1
+mvn archetype:generate -DgroupId=com.foo -DartifactId=demo -Dpackage=com.foo -Dversion=1.0.0-SNAPSHOT -DarchetypeGroupId=io.github.dddplus -DarchetypeArtifactId=dddplus-archetype -DarchetypeVersion=1.0.1
 cd demo/
+```
+
+### Building from Source
+
+``` bash
+git clone https://github.com/dddplus/dddplus-archetype.git
+cd dddplus-archetype/
+mvn install
 ```
