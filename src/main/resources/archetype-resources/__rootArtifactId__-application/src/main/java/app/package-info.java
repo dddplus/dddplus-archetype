@@ -4,4 +4,4 @@
 /**
  * Application layer.
  */
-package ${package}.domain;
+package ${package}.app;

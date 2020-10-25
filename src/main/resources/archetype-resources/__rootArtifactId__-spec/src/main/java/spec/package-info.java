@@ -4,4 +4,4 @@
 /**
  * Specification layer.
  */
-package ${package}.domain;
+package ${package}.spec;

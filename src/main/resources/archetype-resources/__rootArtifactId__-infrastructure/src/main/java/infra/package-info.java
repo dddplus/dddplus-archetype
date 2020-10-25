@@ -4,4 +4,4 @@
 /**
  * Infrastructure layer.
  */
-package ${package}.domain;
+package ${package}.infra;
