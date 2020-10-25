@@ -91,4 +91,8 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <defaultGoal>package</defaultGoal>
+    </build>
 </project>

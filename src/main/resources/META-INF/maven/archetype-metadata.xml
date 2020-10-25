@@ -14,12 +14,6 @@
                         <include>**/*.java</include>
                     </includes>
                 </fileSet>
-                <fileSet filtered="true" packaged="true" encoding="UTF-8">
-                    <directory>src/test/java</directory>
-                    <includes>
-                        <include>**/*.java</include>
-                    </includes>
-                </fileSet>
             </fileSets>
         </module>
         <module id="${rootArtifactId}-domain" dir="__rootArtifactId__-domain" name="${rootArtifactId}-domain">
@@ -30,24 +24,12 @@
                         <include>**/*.java</include>
                     </includes>
                 </fileSet>
-                <fileSet filtered="true" packaged="true" encoding="UTF-8">
-                    <directory>src/test/java</directory>
-                    <includes>
-                        <include>**/*.java</include>
-                    </includes>
-                </fileSet>
             </fileSets>
         </module>
         <module id="${rootArtifactId}-spec" dir="__rootArtifactId__-spec" name="${rootArtifactId}-spec">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
-                    <includes>
-                        <include>**/*.java</include>
-                    </includes>
-                </fileSet>
-                <fileSet filtered="true" packaged="true" encoding="UTF-8">
-                    <directory>src/test/java</directory>
                     <includes>
                         <include>**/*.java</include>
                     </includes>
@@ -67,18 +49,6 @@
                     <directory>src/main/resources</directory>
                     <includes>
                         <include>**/*.xml</include>
-                    </includes>
-                </fileSet>
-                <fileSet filtered="true" packaged="true" encoding="UTF-8">
-                    <directory>src/test/java</directory>
-                    <includes>
-                        <include>**/*.java</include>
-                    </includes>
-                </fileSet>
-                <fileSet filtered="true" encoding="UTF-8">
-                    <directory>src/test/resources</directory>
-                    <includes>
-                        <include>**/*.properties</include>
                     </includes>
                 </fileSet>
             </fileSets>
