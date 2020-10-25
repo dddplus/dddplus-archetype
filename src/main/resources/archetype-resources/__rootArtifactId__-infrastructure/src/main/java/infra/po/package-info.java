@@ -2,8 +2,8 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 /**
- * Persistant object.
+ * Persistent object.
  *
- * <p>物理模型，对应底层此存储对象</p>
+ * <p>物理模型，对应底层的存储对象</p>
  */
 package ${package}.infra.po;
