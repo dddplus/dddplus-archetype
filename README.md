@@ -15,7 +15,7 @@ cd demo/
 
 生成的工程脚手架，已经集成了最佳实践：
 - 中台特色的DDD分层架构
-- [DDDplus](https://github.com/funkygao/cp-ddd-framework)的核心抽象自动生成
+- [DDDplus](https://github.com/funkygao/cp-ddd-framework)的核心抽象自动集成
 - 自动生成覆盖率聚合报告的单元测试模块
 - 单元测试模块独立出来，防止造成业务代码的jar依赖污染，即使scope=test
 - 自动集成架构防腐测试
