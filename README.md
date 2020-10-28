@@ -23,4 +23,4 @@ cd demo/
 
 ## Demo
 
-请访问[5分钟搭建一个仓储系统WMS](https://github.com/dddplus/dddplus-archetype-demo).
+请访问 [5分钟搭建一个仓储系统WMS](https://github.com/dddplus/dddplus-archetype-demo).
