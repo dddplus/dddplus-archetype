@@ -11,6 +11,10 @@ mvn archetype:generate -DarchetypeGroupId=io.github.dddplus -DarchetypeArtifactI
 cd demo/
 ```
 
+## Demo
+
+请访问 [5分钟搭建一个仓储系统WMS](https://github.com/dddplus/dddplus-archetype-demo).
+
 ## Integrated best practice
 
 生成的工程脚手架，已经集成了最佳实践：
@@ -21,6 +25,3 @@ cd demo/
 - 单元测试模块独立出来，防止造成业务代码的jar依赖污染，即使scope=test
 - 自动集成架构防腐测试
 
-## Demo
-
-请访问 [5分钟搭建一个仓储系统WMS](https://github.com/dddplus/dddplus-archetype-demo).
