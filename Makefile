@@ -7,7 +7,7 @@ install:clean
 	@mvn install
 
 deploy:clean
-	@mvn deploy
+	@mvn deploy -Prelease
 
 generate-demo:install
 	@rm -rf demo
