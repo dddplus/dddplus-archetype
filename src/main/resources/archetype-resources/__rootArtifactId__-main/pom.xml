@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-application</artifactId>
+            <artifactId>${rootArtifactId}-facade</artifactId>
         </dependency>
     </dependencies>
 </project>
