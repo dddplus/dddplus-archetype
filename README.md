@@ -12,7 +12,7 @@ A maven archetype that generates a complete [DDDplus](https://github.com/funkyga
 mvn archetype:generate                          \
     -DarchetypeGroupId=io.github.dddplus        \
     -DarchetypeArtifactId=dddplus-archetype     \
-    -DarchetypeVersion=1.0.2                    \
+    -DarchetypeVersion=1.0.3                    \
     -DgroupId=com.foo -DartifactId=demo         \
     -Dpackage=com.foo -Dversion=1.0.0-SNAPSHOT  \
     -B
