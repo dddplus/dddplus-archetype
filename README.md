@@ -1,5 +1,7 @@
 # dddplus-archetype
-[DDDplus framework](https://github.com/funkygao/cp-ddd-framework) Maven Archetype，自动生成集成DDDplus的工程脚手架代码。
+
+A maven archetype that generates a complete [DDDplus](https://github.com/funkygao/cp-ddd-framework) driven project skeleton.
+自动生成集成DDDplus的工程脚手架代码。
 
 [![Mavenn Central](https://img.shields.io/maven-central/v/io.github.dddplus/dddplus-archetype.svg?label=Maven%20Central)](https://search.maven.org/search?q=a:dddplus-archetype)
 ![Requirement](https://img.shields.io/badge/JDK-8+-green.svg)
