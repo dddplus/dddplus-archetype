@@ -5,6 +5,7 @@ A maven archetype that generates a complete [DDDplus](https://github.com/funkyga
 
 [![Mavenn Central](https://img.shields.io/maven-central/v/io.github.dddplus/dddplus-archetype.svg?label=Maven%20Central)](https://search.maven.org/search?q=a:dddplus-archetype)
 ![Requirement](https://img.shields.io/badge/JDK-8+-green.svg)
+[![DDDplus version](https://img.shields.io/badge/DDDplus-1.1.0-blue)](https://github.com/funkygao/cp-ddd-framework)
 
 ## Usage
 
@@ -12,9 +13,9 @@ A maven archetype that generates a complete [DDDplus](https://github.com/funkyga
 mvn archetype:generate                          \
     -DarchetypeGroupId=io.github.dddplus        \
     -DarchetypeArtifactId=dddplus-archetype     \
-    -DarchetypeVersion=1.0.3                    \
+    -DarchetypeVersion=1.1.0                    \
     -DgroupId=com.foo -DartifactId=demo         \
-    -Dpackage=com.foo -Dversion=1.0.0-SNAPSHOT  \
+    -Dpackage=com.foo -Dversion=0.0.1-SNAPSHOT  \
     -B
 cd demo/
 ```
